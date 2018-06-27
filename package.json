@@ -1,7 +1,15 @@
 {
   "name": "weepub",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Publish different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source)",
+  "author": {
+    "name": "Aori Nevo",
+    "email": "aorinevo@gmail.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/aorinevo/weepub.git"
+  },
   "main": "index.js",
   "scripts": {
   },
