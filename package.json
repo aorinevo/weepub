@@ -1,0 +1,12 @@
+{
+  "name": "weepub",
+  "version": "1.1.0",
+  "description": "Publish different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source)",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Aori Nevo",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
