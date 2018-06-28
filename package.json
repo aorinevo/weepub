@@ -1,6 +1,6 @@
 {
   "name": "weepub",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Publish different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source)",
   "author": {
     "name": "Aori Nevo",
