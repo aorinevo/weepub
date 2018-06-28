@@ -1,12 +1,12 @@
 ## Introduction
 
-Weepub aims to help projects publish different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source).  
+Weepub aims to help projects publish to npm different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source).  
 
 ## Use Case
 
 Although not advised, there are some use cases for adding a different version of a library to your project.  Here are a couple:
   - to decrease install time
-  - to replace a places where a minified file is already being used in the project
+  - to replace places where a minified file is already being used in the project
 
 ## Notes
 
