@@ -17,7 +17,7 @@ There are some things to consider when opting-in to using different versions of 
 ## Example
 
 - Create folders:
-For each different version of the library, create a separate directory with a package.json file.  It's likely that the directory already exists and contains the file you want to publish as a separate npm module.  If that's the case, simply add a package.json file to the directory.
+For each different version of the library, create a separate directory with a package.json file.  It's likely that the directory already exists and contains the file you want to publish as a separate npm module.  If that's the case, simply add a valid package.json file to the directory.
 ```
 redux/
 ...cjs/package.json
@@ -28,12 +28,12 @@ redux/
 
 - Install:
 ```
-npm install weepub
+npm install weepub --save-dev
 ```
 
 - Configure:
 ```
-import weepub from 'weepub'
+const weepub = require('weepub');
 
 const options =   {
   packages: [
@@ -59,5 +59,5 @@ const options =   {
 
 - Publish:
 ```
-weepub.config( options ).publish();
+weepub( options ).publish();
 ```
