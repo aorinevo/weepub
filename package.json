@@ -1,6 +1,6 @@
 {
   "name": "weepub",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Publish different versions of their library for different environments (UMD, minified UMD, ES modules, common js, original source)",
   "author": {
     "name": "Aori Nevo",
@@ -16,5 +16,14 @@
   "author": "Aori Nevo",
   "license": "ISC",
   "dependencies": {
-  }
+  },
+  "keywords": [
+    "publish"
+    "minified",
+    "umd",
+    "mini-umd",
+    "commonjs",
+    "auto-publish",
+    "es"
+  ]
 }
